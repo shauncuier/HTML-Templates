@@ -265,3 +265,12 @@ footer {
     width: 100%;
   }
 }
+
+@media (max-width: 500px){
+  #showcase h1{
+    font-size: 35px;
+  }
+  header li {
+    padding: 0 10px 0 10px;
+  }
+}
