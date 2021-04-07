@@ -222,7 +222,15 @@ footer {
   background: #e8491d;
   text-align: center;
 }
-
+footer a,footer p{
+  font-size: 18px;
+  font-weight: bold;
+}
+footer a{
+  color: #a2d6f6;
+  text-decoration: none;
+  
+}
 /* Media Queries */
 
 @media (max-width: 768px) {
