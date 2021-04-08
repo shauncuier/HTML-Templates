@@ -54,6 +54,25 @@
   transform: scale(0.98);
 }
 
+/* Alert */
+.alert{
+  background-color:var(--light-color);
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.alert-success{
+  background: var(--success-color);
+  color: var(--light-color);
+}
+
+.alert-error{
+  background: var(--error-color);
+  color: var(--dark-color);
+}
+.alert i{
+  margin-right: 10px;
+}
 /* Backgrounds and colored Buttons */
 .bg-primary,
 .btn-primary {
@@ -70,6 +89,27 @@
   background: var(--dark-color);
   color: #fff;
 }
+.bg-light,
+.btn-light {
+  background: var(--light-color);
+  color: #333;
+}
+/* Text Color */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-dark {
+  color: var(--dark-color);
+}
+.text-light {
+  color: var(--light-color);
+}
+
+
+
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -79,10 +119,13 @@
 .btn-dark a{
     color: #fff;
 }
-.btn-light {
-  background: var(--light-color);
+.bg-light a,
+.btn-light a{
   color: #333;
 }
+
+
+
 
 /* Text Sizes */
 .lead {
