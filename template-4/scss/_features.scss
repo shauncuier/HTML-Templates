@@ -1,0 +1,36 @@
+.features-container {
+  background: #323232;
+}
+
+.features {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    .card {
+      background: #fff;
+      margin: 0rem 3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 10px;
+
+      h4 {
+        margin: 3rem 0rem;
+      }
+      p {
+        padding: 2rem;
+      }
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
