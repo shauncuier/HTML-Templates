@@ -116,3 +116,14 @@ padding-bottom: 20px;
     width: 100%;
     border-radius: 0%;
   }
+
+  .showcase-text h1{
+    font-weight: bold;
+  }
+
+  .btn{
+    background-color: rgb(82, 93, 93);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: azure;
+  }
